@@ -1,0 +1,72 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	font-weight: bold;
+}
+.frase, .campo-digitacao 
+{
+	font-size: 120%;
+}
+
+.frase {
+
+}
+
+.campo-digitacao 
+{
+	height: 130px;
+	border: 2px solid black;
+}
+
+.campo-desabilitado 
+{
+	background-color: #cecece;
+}
+
+.icones 
+{
+ 	vertical-align: middle;
+ 	margin-bottom: 1%;
+}
+
+.borda-verde {
+
+	border: 2px solid green;
+}
+
+.borda-vermelha {
+
+	border: 2px solid red;
+}
+
+.placar {
+	display: none;
+}
+
+#erro {
+	color: red;
+	display: none;
+}
+
+#spinner {
+	display: none;
+}
+
+#frase-id {
+	width: 5%;
+	text-align: center;
+}
+
+#botao-sync {
+	float: right;
+}
+
+textarea {
+    resize: none;
+}
+
+.select-usuarios,
+#usuarios {
+	display: block;
+}
